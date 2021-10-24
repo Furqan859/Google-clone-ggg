@@ -48,7 +48,6 @@ section{
 
 #search-box{
     width: 100%;
-    width: 582px;
     color: #222;
     border: 1px solid #dfe1ed;
     font-size: 13px;
@@ -62,8 +61,8 @@ section{
 #search-box:hover{
     box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.28);
     border-color: rgba(233, 225, 229, 0);
-
 }
+
 
 #search-box:focus{
     box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.28);
@@ -77,6 +76,8 @@ section{
     right: 0;
     width: 28px;
 }
+
+
 
 .custom-btn{
     background-color:  #f2f2f2;
