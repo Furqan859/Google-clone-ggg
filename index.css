@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, sans-serif;
+    content-visibility: ;
 }
 nav {
     text-align: right;
@@ -77,9 +78,16 @@ section{
     width: 28px;
 }
 
+#search-icon{
+position: absolute;
+top: 35px;
+left: 10px;
+opacity: .3;
+}
 
 
 .custom-btn{
+    
     background-color:  #f2f2f2;
     color: #5F6368;
     font-size: 14px;
@@ -93,10 +101,67 @@ section{
 .custom-btn:hover{
     background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
     border: 1px solid #c6c6c6;
-
-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-
-color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
 }
 
 
+#footer{
+   display: flex;
+   justify-content: space-around;
+  
+}
+
+#footer-div{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: 100px;
+    
+ 
+ }
+ 
+ .pakistan{
+     margin-top: 15px;
+     margin-left: 25px;
+     opacity: 0.5; 
+     margin-bottom: 20px;
+     padding-bottom: 15px;
+     border-bottom: 1px solid silver;
+     
+ 
+ }
+
+.footer-span{
+    
+   margin: 10px;
+   text-decoration: none;
+   color: rgb(122, 121, 121);
+   margin-left: 30px;
+   display: block;
+   position: absolute;
+   
+    
+    
+}
+.footer-span:hover{
+    text-decoration: underline;
+}
+
+.right-footer{
+
+   
+    float: right;
+   position: relative;
+   text-decoration: none;
+   color: rgb(122, 121, 121);
+   margin-right: 0;
+   display: block;
+
+}
+
+.right-footer:hover{
+    text-decoration: underline;
+}
