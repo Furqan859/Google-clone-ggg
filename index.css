@@ -108,7 +108,7 @@ opacity: .3;
 
 #footer{
    display: flex;
-   justify-content: space-around;
+   
   
 }
 
@@ -135,7 +135,7 @@ opacity: .3;
  }
 
 .footer-span{
-    
+    position: absolute;
    margin: 10px;
    text-decoration: none;
    color: rgb(122, 121, 121);
@@ -150,9 +150,10 @@ opacity: .3;
     text-decoration: underline;
 }
 
+
 .right-footer{
 
-   
+    position: absolute;
     float: right;
    position: relative;
    text-decoration: none;
