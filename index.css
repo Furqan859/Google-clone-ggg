@@ -105,15 +105,13 @@ opacity: .3;
     color: #222;
 }
 
-
-#footer{
-   display: flex;
-   
-  
+.google-offered{
+    margin-top: 30px;
 }
 
+
 #footer-div{
-    padding: 20px;
+    
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -122,26 +120,35 @@ opacity: .3;
     
  
  }
- 
+
  .pakistan{
-     margin-top: 15px;
-     margin-left: 25px;
-     opacity: 0.5; 
-     margin-bottom: 20px;
-     padding-bottom: 15px;
-     border-bottom: 1px solid silver;
-     
+    margin-top: 15px;
+    margin-left: 25px;
+    opacity: 0.5; 
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid silver;
+    
+
+}
  
- }
+
+#footer{
+  
+  padding: 5px;
+   
+  
+}
+
 
 .footer-span{
-    position: absolute;
+  
    margin: 10px;
    text-decoration: none;
    color: rgb(122, 121, 121);
    margin-left: 30px;
-   display: block;
-   position: absolute;
+  
+   
    
     
     
@@ -150,16 +157,17 @@ opacity: .3;
     text-decoration: underline;
 }
 
+#footer-right-side{
+    float: right;
+    margin: 5px;
+}
 
 .right-footer{
-
-    position: absolute;
-    float: right;
-   position: relative;
    text-decoration: none;
    color: rgb(122, 121, 121);
    margin-right: 0;
-   display: block;
+   margin: 10px;
+   
 
 }
 
